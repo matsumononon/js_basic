@@ -268,7 +268,7 @@ test.textContent = '変更します';
 //コンテンツの変更
 
 console.log('イベント----------------------');
-//cssだったらホバーとかクリックとかのことをイベントという
+//cssだったらホバーとかのことをイベントという
 document.getElementById('btn').addEventListener(
   'click',function(){
     let tag = document.createElement('p');
